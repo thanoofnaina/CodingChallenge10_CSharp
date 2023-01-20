@@ -11,7 +11,6 @@ Queue<string?> Queue1 = new Queue<string?>();
 Queue<string?> Queue2 = new Queue<string?>();
 Queue<string?> Queue3 = new Queue<string?>();
 
-
 for (int k = 0; k <= n; k++  )
 {
     for (int j = 0; j < 3 && n>0 ; ++j)
@@ -32,7 +31,6 @@ for (int k = 0; k <= n; k++  )
             Console.WriteLine($"Boarding pass {boardingPass[0]} : Counter 3");
             boardingPass.RemoveAt(0);
             n--;
-
         }
         else
         {
@@ -65,8 +63,6 @@ for (int k = 0; k <= n; k++  )
             }
         }
     }
-
-
 }
 
 
